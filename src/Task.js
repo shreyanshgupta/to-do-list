@@ -7,28 +7,28 @@ class Task extends Component {
         return (
             <div>
                 <Row>
-                    <col xs={1}>
+                    <Col xs={1}>
                         <div>
                             <p style={{textAlign:'center', fontWeight:'bold', paddingTop:'10px'}}>8
                                 <br />
                                 <span>AM</span>
                             </p>
                         </div>
-                    </col>
-                    <col xs={10}>
+                    </Col>
+                    <Col xs={10}>
                         <h4 id="activity-title">Storefoundary Branding</h4>
                         <p>Ideation/Sketch/Wireframing</p>
-                    </col>
-                    <col xs={1}>
+                    </Col>
+                    <Col xs={1}>
                         <Row style={{paddingTop:'10px'}}>
-                            <col xs={6}>
+                            <Col xs={6}>
                                 <FontAwesome name='times' />
-                            </col>
-                            <col xs={6}>
+                            </Col>
+                            <Col xs={6}>
                                 <FontAwesome name='check' />
-                            </col>
+                            </Col>
                         </Row>
-                    </col>
+                    </Col>
                 </Row>
             </div>
         );
